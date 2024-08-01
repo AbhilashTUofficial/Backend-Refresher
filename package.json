@@ -1,0 +1,29 @@
+{
+  "name": "backend-refresher",
+  "version": "1.0.0",
+  "description": "Node,Express,MongoDB refresher project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env  index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhilashTUofficial/Backend-Refresher.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB"
+  ],
+  "author": "Abhilash TU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhilashTUofficial/Backend-Refresher/issues"
+  },
+  "homepage": "https://github.com/AbhilashTUofficial/Backend-Refresher#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
