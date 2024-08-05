@@ -1,0 +1,28 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "ExpressJs refresher",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhilashTUofficial/Backend-Refresher.git"
+  },
+  "keywords": [
+    "ExpressJS"
+  ],
+  "author": "Abhilash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhilashTUofficial/Backend-Refresher/issues"
+  },
+  "homepage": "https://github.com/AbhilashTUofficial/Backend-Refresher#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
